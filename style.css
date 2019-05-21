@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400&display=swap');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+#wrapper {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#content {
+    height: 100%;
+}
+
+#sidebar {
+    background-color: #ecebeb;
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 60px;
+    text-align: center;
+    box-shadow:  0 0 5px rgba(0, 0, 0, 1);
+}
+
+#sidebar-content {
+    display: inline-block;
+    text-align: left;
+}
+#hello {
+    font-family: 'Rochester', cursive;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#main {
+    margin-left: 200px;
+    background-color: #ffffff;
+}
+
+#main-content {
+    margin-left: 50px;
+}
+
+#menu-bar {
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+#search-bar input {
+	left: 300px;
+    width: 400px;
+    border: none;
+    line-height: 30px;
+    vertical-align: middle;
+}
+}
+#desi {
+    width: 400px;
+    border: none;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#notifications {
+    height: 100%;
+    white-space: nowrap;
+    float: right;
+    overflow: hidden;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#notifications img {
+    line-height: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#recommended-albums-top {
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+#recommended-albums-top #albums-chevron {
+    float: right;
+}
+
+#recommended-albums {
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 70px;
+    overflow: hidden;
+}
+
+#recommended-albums .albums {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#recommended-albums .albums img {
+    margin-top: 5px;
+    -moz-box-shadow: 0 10px 10px rgba(114, 111, 111, 0.6);
+    -webkit-box-shadow: 0 10px 10px rgba(114, 111, 111, 0.6);
+    box-shadow: 0 10px 10px rgba(114, 111, 111, 0.6);
+    cursor: pointer;
+}
+
+#recommended-albums .albums .album-text {
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#recommended-albums .albums .album-sub-text {
+    margin-top: 5px;
+    font-size: 11px;
+    color: #636060;
+    cursor: pointer;
+}
+
+#recommended-albums .albums .album-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+.botrightpara p{
+	font-size: 9px;
+	text-align: left;
+	
+}
+
+.sen {
+    height: 245px;
+	width: 95%;
+	
+  	
+}
+.senleft {
+    width:50%;
+    float:left;
+	height:100%;
+    position: relative;
+    right: 0px;
+    overflow: auto;
+	font-size: 16px;
+	text-align: left;
+}
+.senright {
+    width:40%;
+	height: 100%;
+    position: relative;
+    overflow: auto;
+
+	
+ 
+}
+.push {
+    height: 60px;
+	width: 95%;
+	
+ 
+  
+	
+}
+
+.bot {
+    height: 176px;
+	width: 100%;
+	position: relative;
+	
+}
+
+.p{
+	font-size: 800px;
+	text-align: center;
+	
+}
+.left {
+    width:25%;
+    float:left;
+	height:100%;
+    position: relative;
+    right: 0px;
+    overflow: auto;
+	font-size: 16px;
+	text-align: left;
+}
+.right1 {
+    width:70%;
+	height: 100%;
+    position: relative;
+    margin-left: 10%;
+    overflow: auto;
+    font-size: 12px;
+	font-size: 16px;
+	text-align: left;
+}
+.right {
+    width:70%;
+	height: 100%;
+    position: relative;
+    margin-left: 26%;
+    overflow: auto;
+    font-size: 12px;
+ 
+}
+.botleft {
+    width:100%;
+    float:left;
+	height:26%;
+    position: relative;
+    right: 0px;
+    overflow: auto;
+	font-size: 16px;
+	background-color:white;
+    margin-bottom: 5px;
+	margin-top: 7px;
+	
+    
+}
+.bootleftleft {
+	width:48%;
+	float:left;
+	height:100%;
+	position: relative;	
+	
+	
+}
+.bootleftright {
+	width:38%;
+	margin-left: 60%;
+	height:100%;
+	position: relative;
+    
+	
+}
+.botleftimage {
+	width:30%;
+	float:left;
+	height:100%;
+	margin-top: 10 px;
+	position: relative;	
+}
+.botrightpara {
+	width:48%;
+	margin-left: 33%;
+	height:78%;
+	position: relative;
+	
+}
+.botimage {
+	margin-top: 10 px;
+	width: 50px;
+    height: 40px;
+    border-radius: 5px;
+}
+.btttimage {
+	margin-top: 10 px;
+	width: 100%;
+    height: 96%;
+    border-radius: 5px;
+}
+.bt {
+    width:90%;
+    float:left;
+	height:41%;
+    position: relative;
+    right: 0px;
+    overflow: auto;
+    margin-bottom: 11px;
+	margin-left: 10%;
+	margin-top: 7px;
+    
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+   }
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+}
+.playbutton {
+  color: white;
+  border: none;
+  background:transparent;
+}
+.playbutton:hover {
+   color: RoyalBlue;
+}
+.playbuttonred {
+  color: #ee3377;
+  border: none;
+  background:transparent;
+}
+.playbuttonred :hover {
+   color: RoyalBlue;
+}
+
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #494eeb;
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+
+#footer-content {
+    height: 100%;
+    position: absolute;
+}
+
+#footer-content #footer-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#footer-content #footer-text {
+    margin-left: 15px;
+    display: inline-block;
+    line-height: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+#footer-content #footer-text #footer-text-title {
+    display: block;
+    font-size: 12px;
+    color: #fff;
+}
+
+#footer-content #footer-text #footer-text-artist {
+    display: block;
+    font-size: 11px;
+    color: rgb(201, 197, 197);
+}
+
+#footer-content #control-button {
+    position: relative;
+    margin-left: 195px;
+}
+
+.icons {
+    margin-right: 15px;
+    color: #3b3a3a;
+    vertical-align: bottom;
+    font-size: 18px !important;
+}
+
+.icons-playlist {
+    margin-right: 15px;
+    color: #3b3a3a;
+    vertical-align: center;
+    font-size: 8px !important;
+}
+
+.icons-search-bar {
+    margin-right: 35px;
+    color: #3b3a3a;
+    vertical-align: middle;
+    font-size: 18px !important;
+    cursor: pointer;
+}
+
+.icons-albums-chevron {
+    margin-left: 15px;
+    color: #3b3a3a;
+    font-size: 24px !important;
+    cursor: pointer;
+}
+
+.icons-control-buttons {
+    margin-left: 15px;
+    font-size: 24px !important;
+    cursor: pointer;
+}
+
+
+
+.nav-link {
+    margin-top: 35px;
+	
+}
+
+.nav-link ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-link ul li {
+    margin-top: 12px;
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+    color: rgb(36, 34, 34);
+}
+
+.nav-link ul li a:hover {
+    color: #ee3377;
+	border-right-color: #ee3377;
+	
+}
+
+.nav-link ul li a:hover .icons {
+    color: #ee3377;
+    font-family: Material Icons;
+}
+
+.library {
+    margin-top: 40px;
+}
+
+.library ul {
+    padding: 0;
+    list-style-type: none;
+	
+	
+}
+
+.library ul li {
+    margin-top: 12px; 
+}
+
+.library ul li a {
+    text-decoration: none;
+    color: rgb(36, 34, 34);
+}
+
+.library ul li a:hover {
+    color: #ee3377;
+}
+
+.library ul li a:hover .icons {
+    color: #ee3377;
+    font-family: Material Icons;
+}
+
+.playlist {
+    margin-top: 40px;
+}
+
+.playlist ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.playlist ul li {
+    margin-top: 12px;
+}
+
+.playlist ul li a {
+    text-decoration: none;
+    color: rgb(36, 34, 34);
+}
+
+.playlist ul li a:hover {
+    color: #ee3377;
+}
+
+.playlist ul li a:hover .icons-playlist {
+    color: #ee3377;
+    font-family: Material Icons;
+}
+
+.library p,
+.playlist p {
+    font-size: 11px;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.right ul {
+    padding: 0;
+	margin-top: 20px;
+    list-style-type: none;
+
+}
+
+.right ul li {
+    
+    margin-right: 50px	;
+	display:inline;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: rgb(36, 34, 34);
+}
+
+.right ul li a:hover {
+    color: #ee3377;
+}
+
+.right ul li a:hover .icons {
+    color: #ee3377;
+    font-family: Material Icons;
+}
