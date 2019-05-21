@@ -137,7 +137,7 @@ body {
     border-radius: 5px;
 }
 .botrightpara p{
-	font-size: 9px;
+	font-size: 13px;
 	text-align: left;
 	
 }
@@ -220,7 +220,7 @@ body {
 .botleft {
     width:100%;
     float:left;
-	height:26%;
+	height:25%;
     position: relative;
     right: 0px;
     overflow: auto;
@@ -241,10 +241,14 @@ body {
 }
 .bootleftright {
 	width:38%;
+	margin-top: 2%;
 	margin-left: 60%;
-	height:100%;
+	height:50%;
 	position: relative;
-    
+	font-size: 15 px;
+	display: center;
+	
+  
 	
 }
 .botleftimage {
@@ -255,10 +259,13 @@ body {
 	position: relative;	
 }
 .botrightpara {
-	width:48%;
+	width:78%;
 	margin-left: 33%;
-	height:78%;
+	height:85%;
 	position: relative;
+	border-style: solid;
+	border-color: transparent;
+	
 	
 }
 .botimage {
